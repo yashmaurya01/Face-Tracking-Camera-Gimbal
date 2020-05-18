@@ -41,7 +41,7 @@ def tracker():
 
 	# load our serialized model from disk
 	print("[INFO] loading model...")
-	net = cv2.dnn.readNetFromCaffe("/home/yash/AeroMit/VTOL_Sim/ROS_VTOL/src/missionplan/src/deploy.prototxt", "/home/yash/AeroMit/VTOL_Sim/ROS_VTOL/src/missionplan/src/res10_300x300_ssd_iter_140000.caffemodel")
+	net = cv2.dnn.readNetFromCaffe("deploy.prototxt", "res10_300x300_ssd_iter_140000.caffemodel")
 
 
 	# initialize the video stream and allow the camera sensor to warmup
