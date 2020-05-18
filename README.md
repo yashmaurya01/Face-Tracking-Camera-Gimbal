@@ -4,7 +4,7 @@ Storm32 gimbal and camera are interfaced using ROS to the system with a usb cabl
 
 ## Required Packages
 
-[https://github.com/mcgill-robotics/ros-storm32-gimbal](ros-storm32-gimbal)
+[ros-storm32-gimbal](https://github.com/mcgill-robotics/ros-storm32-gimbal)
 
 ## References
-[https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/](Pyimagesearch)
+[Pyimagesearch](https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/)
